@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart – ShineCraft Jewelry</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">ShineCraft Jewelry</div>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="cart.html" class="active">Cart</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="cart-section">
+    <h2>Your Cart</h2>
+    <table class="cart-table">
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Qty</th>
+          <th>Price</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Minimal Silver Ring</td>
+          <td><input type="number" value="1" min="1"></td>
+          <td>KSh 900</td>
+          <td>KSh 900</td>
+        </tr>
+        <!-- more rows for each item -->
+      </tbody>
+    </table>
+    <div class="cart-total">
+      <p>Subtotal: KSh 900</p>
+      <button>Proceed to Checkout</button>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p>© 2025 ShineCraft Jewelry. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
